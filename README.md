@@ -1,13 +1,13 @@
 # Wordpress plugin Development with wp-scripts
-Quick Start Guide
-1. Prerequisites
+## Overview
+### Prerequisites
 ```sh
 # Node.js 18+ and npm
 node --version  # Should be v18+
 npm --version
 ```
-
-2. Create Plugin Structure
+## Development
+### Create Plugin Structure
 ```sh
 # Create plugin directory
 mkdir -p wp-content/plugins/my-awesome-plugin
@@ -23,7 +23,7 @@ npm install --save-dev @wordpress/scripts
 npm install --save-dev @wordpress/element @wordpress/components @wordpress/i18n
 ```
 
-3. Project Structure
+### Project Structure
 ```sh
 my-awesome-plugin/
 ├── src/
